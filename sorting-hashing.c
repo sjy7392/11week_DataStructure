@@ -57,7 +57,7 @@ int main()
 		printf(" Quick Sort       = k           Print Array      = p\n");
 		printf(" Hashing          = h           Search(for Hash) = e\n");
 		printf("----------------------------------------------------------------\n");
-
+g
 		printf("Command = ");
 		scanf(" %c", &command);
 
@@ -347,7 +347,7 @@ int hashing(int *a, int **ht)
 		{
 			hashtable[hashcode] = key;  // 해당 해시 코드 위치가 비어있으면 키를 저장
 		} else {
-			index = hashcode;
+			index = hashcode; // 인덱스에 hashcode 대입
 
 			while (hashtable[index] != -1)
 			{
