@@ -57,7 +57,7 @@ int main()
 		printf(" Quick Sort       = k           Print Array      = p\n");
 		printf(" Hashing          = h           Search(for Hash) = e\n");
 		printf("----------------------------------------------------------------\n");
-g
+
 		printf("Command = ");
 		scanf(" %c", &command);
 
@@ -232,7 +232,7 @@ int bubbleSort(int *a)
 
 	for(i = 0; i < MAX_ARRAY_SIZE; i++)
 	{
-		for (j = 0; j < MAX_ARRAY_SIZE; j++)
+		for (j = 1; j < MAX_ARRAY_SIZE; j++)
 		{
 			if (a[j-1] > a[j])
 			{
